@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000
-  secret: ecommerce-dev
+  secret: user-service-dev
 
 gateway:
-  ip: 192.168.0.1
+  ip: 192.168.0.6
