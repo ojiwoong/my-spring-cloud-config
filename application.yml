@@ -4,3 +4,6 @@ token:
 
 gateway:
   ip: 0.0.0.0
+
+test_tt:
+  test: 1000
