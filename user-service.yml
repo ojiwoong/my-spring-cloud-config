@@ -5,5 +5,7 @@ spring:
       username: sa
       password: '{cipher}AQAatvWYfqdTv0CJ5H9rADyPSnmW/To/Sxv6v1DJxiAkvk4zHYPIHp97V4jjOwtZWqL1z05SwhXbl8FUMImrDUNiX1XAHWfP9Muw/mUUtO9lzxNLCfQnAE5Usv+ERW05WaeLb9o0Xcn22XHgP6jMwQECz006D044C9ohvk1xbJ1x/sC0ju7enNyS+2nGEaiWwCXcNlUwCPuihZTd1FmQDaXyLj/uwYKRFk/bHMarUuMnkV4sOGXWvMGNW/c1xBDeNXhApl3dQaxXz6AUAOwTiGvyT7iUNtEzR7Tqu2BeaMHl+WKBTmU9NWagZY8Mn/Cjn5iZXQhnE9Bq3Wmg85NFSzroV75bQxYcxxPKWFDnpFNmMMr4EkOCwMh9FIe81EoMeek='
 
-orderservice:
+order-service:
   url: http://order-service/order-service/%s/orders
+  exception:
+    order-is-empty: 'There is no items'
